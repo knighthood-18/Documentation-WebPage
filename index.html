@@ -4,7 +4,7 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
 -->
 <head>
     <title>Technical Documentation Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   
   <body>
@@ -28,7 +28,7 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
     
     <main id="main-doc"> <!-- Main Document Div Container -->
       <section class="main-section" id="Introduction"> <!-- Introduction Container -->
-        <header><u>Introduction</u></header> 
+        <header>Introduction</header> 
         <article>
           <p>This webpage contains information about various topics of programmming.</p>
           <!-- <p>Launched in October of 2014, freeCodeCamp was founded by the great Quincy Larson. Quincy is a software developer who took up programming after graduate school and used these skills to create fCC. His vision was a way for pupils to have the tools to advance from beginners to job ready developers.<a name="1_back_to_top"></a><a class="super" href="#1" rel="internal"><sup>[1]</sup></a></p> -->
@@ -47,7 +47,7 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
       </section>
       <br>
       <section class="main-section" id="Responsive_Web_Design"> <!-- Responsive Web Design Container -->
-        <header><u>Responsive Web Design</u></header>
+        <header>Responsive Web Design</header>
         <article>
           <p>Responsive web design suggests that the approach of designing and developing a website should repond to the user's behavior and enviornment based on platform, orientation and screen size. The practice consists of a well organized HTML structure and a mix of flexible grids, customizable layouts and images of intelligent use of CSS and it's media queries. For example, as a user switches from a laptop to a tablet or phone, the website will automatically switch media to accommodate for resolution, image size and scripting abiliities. To put simply, the website will have the technology to automatically respond to the user's preferences and different devices. This eliminates the need for multiple different design and development phases for each new gadget that is new to the market.<a name="3_back_to_top"></a><a class="super" href="#3" rel="internal"><sup>[3]</sup></a></p>
           <div>
@@ -59,13 +59,26 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
       </section>
       <br>
       <section class="main-section" id="Basic_HTML_and_HTML5"> <!-- Basic HTML and HTML5 Container -->
-        <header><u>Basic HTML and HTML5</u></header>
+        <header>Basic HTML and HTML5</header>
         <article>
           <p>Hyper Text Markup Language, or better known as HTML, is a markup language to describe the structure of a web page much like a skeleton of a human body. An array of unique syntax of elements are used to organize and give information about the content to the web browser. Opening and closing tags are used on elements that surround content and gives meaning to it. There are different element tags that have different functions and uses that could include paragraphs, headers, links or lists.<a name="4_back_to_top"></a><a class="super" href="#4" rel="internal"><sup>[4]</sup></a></p>
-          <p>This section references how to use HTML elements to give structure and meaning to your web content. Listed below are the topics covered for HTML and HTML5.</p>
-          <li style="list-style: none;"><a class="html" href="#the_declaration" rel="internal">The Declaration</a> | <a class="html" href="#comments" rel="internal">Comments</a> | <a class="html" href="#the_head" rel="internal">The Head</a> | <a class="html" href="#the_main_body" rel="internal">The Main/Body</a> | <a class="html" href="#headings" rel="internal">Headings</a> | <a class="html" href="#paragraphs" rel="internal">Paragraphs</a> | <a class="html" href="#lists" rel="internal">Lists</a> | <a class="html" href="#divs" rel="internal">Divs</a> | <a class="html" href="#images_video" rel="internal">Images/Video</a> | <a class="html" href="#anchors" rel="internal">Anchors</a> | <a class="html" href="#forms" rel="internal">Forms</a> | <a class="html" href="#buttons" rel="internal">Buttons</a></li>
+          <p>This section references how to use HTML elements to give structure and meaning to your web content. Listed below are the topics covered for HTML and HTML5:</p>
+          <ul>
+          <li ><a class="html" href="#the_declaration" rel="internal">The Declaration</a></li>
+          <li><a class="html" href="#comments" rel="internal">Comments</a> </li>
+          <li><a class="html" href="#the_head" rel="internal">The Head</a> </li>
+          <li><a class="html" href="#the_main_body" rel="internal">The Main/Body</a> </li>
+          <li><a class="html" href="#headings" rel="internal">Headings</a></li>
+          <li><a class="html" href="#paragraphs" rel="internal">Paragraphs</a></li>
+          <li><a class="html" href="#lists" rel="internal">Lists</a></li>
+          <li><a class="html" href="#divs" rel="internal">Divs</a></li>
+          <li><a class="html" href="#images_video" rel="internal">Images/Video</a></li>
+          <li><a class="html" href="#anchors" rel="internal">Anchors</a> </li> <li><a class="html" href="#forms" rel="internal">Forms</a> </li>
+          <li><a class="html" href="#buttons" rel="internal">Buttons</a></li>
+        </ul>
           <br>
-          <h2 id="the_declaration">The Declaration</h2>
+          <ul>
+          <li><h2 id="the_declaration">The Declaration</h2>
           <p>At the start of your coding document you need to declare the language being used so the browser knows what version of HTML you're using and is able to read it. Most major browsers now support the latest installment, HTML5. Below is how you declare the language, in this case it'll be HTML5. This version is declared with the &lt;!DOCTYPE html&gt; tag. Don't forget the &lt;html&gt; tags that wrap around your html code!<a name="5_back_to_top"></a><a class="super" href="#5" rel="internal"><sup>[5]</sup></a></p>
             <code>
   &lt;!DOCTYPE html&gt;
@@ -73,8 +86,8 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
       ... &lt;!-- Your code here --&gt;
     &lt;/html&gt;
             </code>
-          <br>
-          <h2 id="comments">Comments</h2>
+          <br></li>
+          <li><h2 id="comments">Comments</h2>
           <p>Comments are a way to leave notes and reminders about the code for yourself or another programmer so they understand quickly what they are reading. Comments don't affect the code itself, they appear within the typed code but are not generated on the page. It's also a convenient way to make code inactive without having to delete it. Comments start with an opening tag of &lt;!-- and close with a --&gt; when finished.<a name="6_back_to_top"></a><a class="super" href="#6" rel="internal"><sup>[6]</sup></a></p>
           <code>
   &lt;!-- This is a single line comment --&gt;
@@ -91,9 +104,9 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
         &lt;/div&gt;
       &lt;/body&gt;
     &lt;/html&gt;
-          </code>
+          </code></li>
           <br>
-          <h2 id="the_head">The Head</h2>
+          <li><h2 id="the_head">The Head</h2>
           <p>Any markup with information about your page would go into the head tag, which is essentially the header of the page. Metadata elements such as the &lt;link&gt; ,&lt;meta&gt; ,&lt;title&gt; , and &lt;style&gt; usually go inside the &lt;head&gt; element.</p>
           <code>
   &lt;!DOCTYPE html&gt;
@@ -103,9 +116,9 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
         &lt;link...&gt; &lt;!-- Your link here --&gt;
       &lt;/head&gt;
     &lt;/html&gt;
-          </code>
+          </code></li>
           <br>
-          <h2 id="the_main_body">The Main/Body</h2>
+          <li><h2 id="the_main_body">The Main/Body</h2>
           <p>All markups containing content that make up the page would go into the main or the body tag. The body element acts as the body of all of the content of the page while the main element is inside of the body and contains the page's main content. All elements not part of the header or footer usually go inside one of these elements.<a name="7_back_to_top"></a><a class="super" href="#7" rel="internal"><sup>[7]</sup></a></p>
           <code>
   &lt;!DOCTYPE html&gt;
@@ -121,20 +134,20 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
         ... &lt;!-- Maybe some more content here --&gt;
       &lt;/body&gt;
     &lt;/html&gt;
-          </code>
+          </code></li>
           <br>
-          <h2 id="headings">Headings</h2>
+          <li><h2 id="headings">Headings</h2>
           <p>The heading element tells the browser about the structure of the website. &lt;h1&gt; elements are often used for main headings as they are largest of the headings. &lt;h2&gt; through &lt;h6&gt; elements are generally used for subheadings to indicate different or new sections of your content.<a name="8_back_to_top"></a><a class="super" href="#8" rel="internal"><sup>[8]</sup></a></p>
           <code id="heading_code">
   &lt;h1&gt;Heading 1&lt;/h1&gt;<h1>Heading 1</h1>
-  &lt;h2&gt;Heading 2&lt;/h2&gt;<h2>Heading 2</h2>
+  &lt;h2&gt;Heading 2&lt;/h2&gt;<h2 style="color:rgb(11, 2, 87);font-family: monospace;">Heading 2</h2>
   &lt;h3&gt;Heading 3&lt;/h3&gt;<h3>Heading 3</h3>
   &lt;h4&gt;Heading 4&lt;/h4&gt;<h4>Heading 4</h4>
   &lt;h5&gt;Heading 5&lt;/h5&gt;<h5>Heading 5</h5>
   &lt;h6&gt;Heading 6&lt;/h6&gt;<h6>Heading 6</h6>
-          </code>
+          </code></li>
           <br>
-          <h2 id="paragraphs">Paragraphs</h2>
+          <li><h2 id="paragraphs">Paragraphs</h2>
           <p>Paragraphs are the preferred element for communicating text on websites. Just like in real writing, &lt;p&gt; tags organize and contain the meaning of the content within the body of the page.<a name="9_back_to_top"></a><a class="super" href="#9" rel="internal"><sup>[9]</sup></a></p>
           <code>
   &lt;body&gt;
@@ -143,9 +156,9 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
         &lt;p&gt;This is a paragraph. Your content and talking points go here.&lt;/p&gt;
     &lt;/main&gt;
   &lt;/body&gt;
-          </code>
+          </code></li>
           <br>
-          <h2 id="lists">Lists</h2>
+          <li><h2 id="lists">Lists</h2>
           <p>There are special elements that let you create lists and there are two kinds of lists that can be made. Unordered lists use the &lt;ul&gt; tag and is a general list that includes bullet points. An ordered list uses the &lt;ol&gt; tag and is used for instructions or anything that needs listed by steps or in a particular order. Don't forget each item in either list set needs a &lt;li&gt; tag to be recorded!<a name="10_back_to_top"></a><a class="super" href="#10" rel="internal"><sup>[10]</sup></a><a name="11_back_to_top"></a><a class="super" href="#11" rel="internal"><sup>[11]</sup></a></p>
           <code>
   &lt;main&gt;
@@ -161,9 +174,9 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
         &lt;li&gt;List item 3&lt;/li&gt;
       &lt;/ol&gt;
   &lt;/main&gt;
-          </code>
+          </code></li>
           <br>
-          <h2 id="divs">Divs</h2>
+          <li><h2 id="divs">Divs</h2>
           <p>The &lt;div&gt; element, also known as the division element, is a general purpose container to contain and organize other elements of the page. &lt;div&gt; is the most commonly used HTML element because of its versatility. Other container elements were introduced with the induction of HTML5. These have more specific uses throughout the page, they include the &lt;header&gt;, &lt;nav&gt;, &lt;section&gt;, &lt;article&gt;, &lt;aside&gt; and &lt;footer&gt; elements. Below is an example of how these would typically be inputed.<a name="12_back_to_top"></a><a class="super" href="#12" rel="internal"><sup>[12]</sup></a></p>
           <code>
   &lt;body&gt;
@@ -188,9 +201,9 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
       ...   &lt;!-- Footer contains copyright info and links --&gt;      
     &lt;/footer&gt;
   &lt;/body&gt;
-          </code>
+          </code></li>
           <br>
-          <h2 id="images_video">Images/Video</h2>
+          <li><h2 id="images_video">Images/Video</h2>
           <p>Images can be added to a website using the &lt;img&gt; element. This element uses the src attribute to specify the images URL to grab the media and display it on the page. The tag is self closing, so a closing tag is not needed for this one. All image elements must have an alt attribute, which is used for screen readers to improve accessibility and is displayed if the image fails to load. Below is an example of how to do this.<a name="13_back_to_top"></a><a class="super" href="#13" rel="internal"><sup>[13]</sup></a></p>
           <code>
   &lt;img src="https://www.the-images-URL-goes-here.com" alt="Text explaining what the image is."&gt;        
@@ -201,9 +214,9 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
     &lt;source src="https://www.video-url-goes-here.com" type="video/mp4"&gt;
     &lt;!-- Replace mp4 with webm or ogg when appropriate --&gt;
   &lt;/video&gt;
-          </code> 
+          </code> </li>
           <br>
-          <h2 id="anchors">Anchors</h2>
+          <li><h2 id="anchors">Anchors</h2>
           <p>Anchor elements, &lt;a&gt;, are used to link to content internally or externally from the current page. The href attribute is used to call the URL that links to what you want. There are many ways anchors can be used on the page, here are some examples.<a name="14_back_to_top"></a><a class="super" href="#14" rel="internal"><sup>[14]</sup></a><a name="15_back_to_top"></a><a class="super" href="#15" rel="internal"><sup>[15]</sup></a><a name="16_back_to_top"></a><a class="super" href="#16" rel="internal"><sup>[16]</sup></a><a name="17_back_to_top"></a><a class="super" href="#17" rel="internal"><sup>[17]</sup></a></p>
           <code>
   &lt;!-- Anchor words to an external link --&gt;
@@ -222,9 +235,9 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
             
   &lt;!-- Anchor with a dead link (#) for when stucture of the page is still needed without the specific URL yet --&gt;
   &lt;a href="#"&gt;Dead Link&lt;/a&gt;
-          </code>
+          </code></li>
           <br>
-          <h2 id="forms">Forms</h2>
+         <li><h2 id="forms">Forms</h2>
           <p>Web forms are a way to collect data and send them to a server using just HTML. These are useful for surveys and anything that involves inputs from a user. Here is how a web form is set up with different inputs types.<a name="18_back_to_top"></a><a class="super" href="#18" rel="internal"><sup>[18]</sup></a><a name="19_back_to_top"></a><a class="super" href="#19" rel="internal"><sup>[19]</sup></a><a name="20_back_to_top"></a><a class="super" href="#20" rel="internal"><sup>[20]</sup></a><a name="21_back_to_top"></a><a class="super" href="#21" rel="internal"><sup>[21]</sup></a><a name="22_back_to_top"></a><a class="super" href="#22" rel="internal"><sup>[22]</sup></a></p>
           <code>
   &lt;!-- This is the form element. This directs the data to a server. --&gt;
@@ -238,9 +251,9 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
     &lt;input type="text placeholder="Enter Text Here" required&gt;
     &lt;button type="submit"&gt;Submit&lt;/button&gt;
   &lt;/form&gt;
-          </code>
+          </code></li>
           <br>
-          <h2 id="buttons">Buttons</h2>
+         <li><h2 id="buttons">Buttons</h2>
           <p>Buttons are another way of collecting data from a user who is prompted with a set of options to input. These can come in a variety of styles, the submit type was shown in the form section. The &lt;label&gt; element is used to nest the buttons in. A name attribute is used to correlate the button with the sent data in a form. How to set up a set of buttons on a page is shown below.<a name="23_back_to_top"></a><a class="super" href="#23" rel="internal"><sup>[23]</sup></a><a name="24_back_to_top"></a><a class="super" href="#24" rel="internal"><sup>[24]</sup></a><a name="25_back_to_top"></a><a class="super" href="#25" rel="internal"><sup>[25]</sup></a></p>
           <code>
   &lt;!-- Radio: round buttons that are filled when selected --&gt;
@@ -260,17 +273,31 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
       &lt;input type="radio" name="option1-check2" checked&gt;Option 1
       &lt;input type="checkbox" name"option1-check2" checked&gt;Check 2
     &lt;/label&gt;
-          </code>
+          </code></li>
+          </ul>
         </article>
       </section>
       <section class="main-section" id="Basic_CSS"> <!-- Basic CSS Container -->
-        <header><u>Basic CSS</u></header>
+        <header>Basic CSS</header>
         <article>
           <p>Cascading Style Sheets, better known as CSS, tells the browser how to display the HTML framework on the page. This language controls the colors, fonts, positioning, spacing, sizing, decorations and transistions of every element. There are three main ways for these languages to communicate with each other to properly display a webpage. Inline styles can be directly written in HTML within each element with the style attribute. Another way CSS rules can be applied to HTML is by adding &lt;style&gt; tags in the HTML document and writing the code withen those. The most used method is to write the CSS code in a external style sheet and have the HTML document reference that sheet. This improves readability and reusability of the code. The best way to remember how these languages function is reffering to the HTML as the skeleton and CSS as the skin of a site.<a name="26_back_to_top"></a><a class="super" href="#26" rel="internal"><sup>[26]</sup></a></p>
           <p>This section references how to use CSS to give color and life to your web content. Listed below are the topics covered for basic CSS and CSS3.</p>
-          <li style="list-style: none;"><a class="css" href="#styling" rel="internal">Styling</a> | <a class="css" href="#import" rel="internal">Import</a> | <a class="css" href="#units" rel="internal">Units</a> | <a class="css" href="#csscomments" rel="internal">Comments</a> | <a class="css" href="#colors" rel="internal">Colors</a> |<a class="css" href="#fonts" rel="internal">Fonts</a> | <a class="css" href="#images" rel="internal">Images</a> | <a class="css" href="#borders" rel="internal">Borders</a> | <a class="css" href="#background" rel="internal">Background</a> | <a class="css" href="#padding" rel="internal">Padding</a> | <a class="css" href="#margin" rel="internal">Margin</a></li>
+          <ul >
+          <li ><a class="css" href="#styling" rel="internal">Styling</a> </li>
+          <li><a class="css" href="#import" rel="internal">Import</a> </li>
+          <li><a class="css" href="#units" rel="internal">Units</a> </li>
+          <li> <a class="css" href="#csscomments" rel="internal">Comments</a></li>
+          <li><a class="css" href="#colors" rel="internal">Colors</a> </li>
+          <li><a class="css" href="#fonts" rel="internal">Fonts</a> </li>
+          <li><a class="css" href="#images" rel="internal">Images</a> </li>
+          <li> <a class="css" href="#borders" rel="internal">Borders</a> </li>
+          <li><a class="css" href="#background" rel="internal">Background</a> </li>
+          <li><a class="css" href="#padding" rel="internal">Padding</a> </li>
+          <li><a class="css" href="#margin" rel="internal">Margin</a></li>
+          </ul>
           <br>
-          <h2 id="styling">Styling</h2>
+          <ul>
+          <li><h2 id="styling">Styling</h2>
           <p>With CSS there are many properties that one can use to change the way an element looks on the page. This is all done in a separate .css file or inside the &lt;style&gt; elements using CSS selectors, classes, ids, and if need be, inline styles outside of the &lt;style&gt; elements. The order of these styling methods also indicate which take precedence when two or more are used. Classes override element selectors, ids over classes and if all else fails, inline styling and adding !important to a property have the final say in an elements style.<a name="27_back_to_top"></a><a class="super" href="#27" rel="internal"><sup>[27]</sup></a><a name="28_back_to_top"></a><a class="super" href="#28" rel="internal"><sup>[28]</sup></a><a name="29_back_to_top"></a><a class="super" href="#29" rel="internal"><sup>[29]</sup></a><a name="30_back_to_top"></a><a class="super" href="#30" rel="internal"><sup>[30]</sup></a><a name="31_back_to_top"></a><a class="super" href="#31" rel="internal"><sup>[31]</sup></a></p>
           <p>Here are the basic methods of incorporating CSS into a page.</p>
           <code>
@@ -303,17 +330,17 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
             
   /* Inline Selector - selects individual elements - NOT RECOMMENDED */
   &lt;h2 style="color: red;"&gt;...&lt;/h2&gt;          
-          </code>
+          </code></li>
           <br>
-          <h2 id="import">Import</h2>
+          <li><h2 id="import">Import</h2>
           <p>Using import in CSS is very similar to using the &lt;link&gt; element in HTML. One of the basic uses of it, just like the &lt;link&gt; element, is to import a font family more than likely from Google. Shown below is an example of importing the Google font Open Sans.<a name="32_back_to_top"></a><a class="super" href="#32" rel="internal"><sup>[32]</sup></a></p>
           <code>
   &lt;style&gt;
   @import url('https://fonts.googleapis.com/css?family=Open+Sans');
   &lt;/style&gt;          
-          </code>
+          </code></li>
           <br>
-          <h2 id="units">Units</h2>
+          <li><h2 id="units">Units</h2>
           <p>There are two main types of units that measure length, absolute and relative. Pixels are a type of relative length unit, mostly used for screen resolutions and sizing, that tells the browser how to size or space an object. This is the most widely used unit, but there are more units that can be used. Em or rem are more relative length units that are relative to another length. Ems are based on the size of an element's font. Absolute units are tied to a physical unit of length such as inches (in) and millimeters (mm).<a name="33_back_to_top"></a><a class="super" href="#33" rel="internal"><sup>[33]</sup></a></p>
           <code>
   &lt;style&gt;
@@ -325,9 +352,9 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
       line-height: 1rem; /* Rems */      
   }
   &lt;/style&gt;          
-          </code>
+          </code></li>
           <br>
-          <h2 id="csscomments">Comments</h2>
+          <li><h2 id="csscomments">Comments</h2>
           <p>Like in HTML, comments are a way to leave notes and reminders about the code for yourself or another programmer so they understand quickly what they are reading. They are also used to prevent the browser from interpreting parts of the style sheet. Comments start with an opening tag of /* and close with a */ when finished.<a name="34_back_to_top"></a><a class="super" href="#34" rel="internal"><sup>[34]</sup></a></p>
           <code>
   &lt;style&gt;          
@@ -336,9 +363,9 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
   /* This is a
   multiple line comment */
   &lt;/style&gt;          
-          </code>
+          </code></li>
           <br>
-          <h2 id="colors">Colors</h2>
+          <li><h2 id="colors">Colors</h2>
           <p>The color of text, backgrounds, objects, borders, you name it can be colored with CSS. The main colors, such as red, blue, green, etc can be declared by simply inputing those in your CSS code. Another method for declaring a color is using the colors hexadecimal code, or hex number. Hex code gives the user a huge range of colors to use and is done by using the hash symbol (#) followed by six numbers and letters. An abbriviated version can also be used by the hash symbol followed by only three numbers and letters, however, this will yield a smaller group of colors. Another way to represent colors in CSS is by using RGB values. RGB uses three numbers from 0 to 255 that measures and mixes the three primary colors to make all of the colors. There is a lot that can be covered and said about colors using CSS so additional references are posted to further explore this vast topic.<a name="35_back_to_top"></a><a class="super" href="#35" rel="internal"><sup>[35]</sup></a><a name="36_back_to_top"></a><a class="super" href="#36" rel="internal"><sup>[36]</sup></a><a name="37_back_to_top"></a><a class="super" href="#37" rel="internal"><sup>[37]</sup></a><a name="38_back_to_top"></a><a class="super" href="#38" rel="internal"><sup>[38]</sup></a><a name="39_back_to_top"></a><a class="super" href="#39" rel="internal"><sup>[39]</sup></a><a name="40_back_to_top"></a><a class="super" href="#40" rel="internal"><sup>[40]</sup></a></p>
           <code>
   /* Main Color Callouts */
@@ -389,7 +416,7 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
   }            
           </code>
           <br>
-          <h2 id="fonts">Fonts</h2>
+          <li><h2 id="fonts">Fonts</h2>
           <p>There are many desired characteristics we want to see from the fonts of a webpage, CSS makes it possible to achieve these. The family, style, size, color, and weight can all be modified for desired looks and effects. Below are many examples how to change fonts in CSS.<a name="41_back_to_top"></a><a class="super" href="#41" rel="internal"><sup>[41]</sup></a><a name="42_back_to_top"></a><a class="super" href="#42" rel="internal"><sup>[42]</sup></a><a name="43_back_to_top"></a><a class="super" href="#43" rel="internal"><sup>[43]</sup></a><a name="44_back_to_top"></a><a class="super" href="#44" rel="internal"><sup>[44]</sup></a><a name="45_back_to_top"></a><a class="super" href="#45" rel="internal"><sup>[45]</sup></a></p>
           <code>
   /* Font Styles */
@@ -444,9 +471,9 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
   body {
     font: italic bold 12px arial; /* (font-style font-weight font-size font-family) All four properties can be declared on one line of code */        
   }                   
-          </code>
+          </code></li>
           <br>
-          <h2 id="images">Images</h2>
+          <li><h2 id="images">Images</h2>
           <p>CSS has properties called width and height that controls an elements width and height. Just like with fonts, pixels are used to control these aspects of the element. Below is an example of resizing an image.<a name="46_back_to_top"></a><a class="super" href="#46" rel="internal"><sup>[46]</sup></a></p>
           <code>
   &lt;style&gt;          
@@ -457,9 +484,9 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
       max-height: auto;      
   }
   &lt;/style&gt;          
-          </code>
+          </code></li>
           <br>
-          <h2 id="borders">Borders</h2>
+          <li><h2 id="borders">Borders</h2>
           <p>Borders can be placed around elements to give it a more define presence or to keep objects orderly on the webpage. They come in many styles, shapes and sizes. Below are a few examples of using borders in CSS.<a name="47_back_to_top"></a><a class="super" href="#47" rel="internal"><sup>[47]</sup></a><a name="48_back_to_top"></a><a class="super" href="#48" rel="internal"><sup>[48]</sup></a><a name="49_back_to_top"></a><a class="super" href="#49" rel="internal"><sup>[49]</sup></a></p>
           <code>
   &lt;style&gt;          
@@ -476,9 +503,9 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
     border: 5px dotted yellow; /* Border properties can be written on one like like shown */        
   }          
   &lt;/style&gt;          
-          </code>
+          </code></li>
           <br>
-          <h2 id="background">Background</h2>
+          <li><h2 id="background">Background</h2>
           <p>An elements background characteristic can be set up using the background property. Much like with other elements, a backgrounds color, position, display and image overlay can be modified. Examples are shown below on CSS backgrounds.<a name="50_back_to_top"></a><a class="super" href="#50" rel="internal"><sup>[50]</sup></a><a name="51_back_to_top"></a><a class="super" href="#51" rel="internal"><sup>[51]</sup></a></p>
           <code>
   &lt;style&gt;
@@ -491,9 +518,9 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
     .background-2 {
       background: red url("https://www.image-url-here.com") repeat-x bottom left; /* Like with many elements, all of the properties can be written on one line */     
   }        
-          </code>
+          </code></li>
           <br>
-          <h2 id="padding">Padding</h2>
+          <li><h2 id="padding">Padding</h2>
           <p>An element's padding controls the amount of space between the element's content and its border. When you increase padding, it increases the distance between the text, padding, and border around it. Sometimes you will want to customize an element so that it has different padding on each of its sides. Padding-top, padding-right, padding-bottom, and padding-left each control the padding on the different four sides of the element. The short hand of applying different padding to the sides is using clockwise notation using just the padding attribute.<a name="52_back_to_top"></a><a class="super" href="#52" rel="internal"><sup>[52]</sup></a><a name="53_back_to_top"></a><a class="super" href="#53" rel="internal"><sup>[53]</sup></a><a name="54_back_to_top"></a><a class="super" href="#54" rel="internal"><sup>[54]</sup></a></p>
           <code>
   /* Normal padding */          
@@ -515,9 +542,9 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
   .box3 {
      padding: 15px 7px 3px 20px;       
   }          
-          </code>
+          </code></li>
           <br>
-          <h2 id="margin">Margin</h2>
+          <li><h2 id="margin">Margin</h2>
           <p>An element's margin controls the amount of space between an element's border and surrounding elements. When you increase an elements margin, it will increase the distance that distance. Just like with padding, you can control the top, right, bottom, and left margins separately. Clockwise shorthand notation can also be used with margins.<a name="55_back_to_top"></a><a class="super" href="#55" rel="internal"><sup>[55]</sup></a><a name="56_back_to_top"></a><a class="super" href="#56" rel="internal"><sup>[56]</sup></a><a name="57_back_to_top"></a><a class="super" href="#57" rel="internal"><sup>[57]</sup></a></p>
           <code>
   /* Normal margin */          
@@ -539,10 +566,10 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
   .box3 {
      margin: 15px 7px 3px 20px;       
   }          
-          </code>
+          </code></li>
           <br>
             <section class="main-section" id="ML"> <!-- Basic HTML and HTML5 Container -->
-            <header><u>Machine Learnin</u></header>
+            <header>Machine Learning</header>
             <article>
               <p>Machine learning (ML) is a type of artificial intelligence (AI) that allows software applications to become more accurate at predicting outcomes without being explicitly programmed to do so. Machine learning algorithms use historical data as input to predict new output values.
 
@@ -550,15 +577,16 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
               <p></p>
               <!-- <li style="list-style: none;"><a class="html" href="#the_declaration" rel="internal">The Declaration</a> | <a class="html" href="#comments" rel="internal">Comments</a> | <a class="html" href="#the_head" rel="internal">The Head</a> | <a class="html" href="#the_main_body" rel="internal">The Main/Body</a> | <a class="html" href="#headings" rel="internal">Headings</a> | <a class="html" href="#paragraphs" rel="internal">Paragraphs</a> | <a class="html" href="#lists" rel="internal">Lists</a> | <a class="html" href="#divs" rel="internal">Divs</a> | <a class="html" href="#images_video" rel="internal">Images/Video</a> | <a class="html" href="#anchors" rel="internal">Anchors</a> | <a class="html" href="#forms" rel="internal">Forms</a> | <a class="html" href="#buttons" rel="internal">Buttons</a></li> -->
               <br>
-              <h2 id="">Why is machine learning important?</h2>
+              <ul>
+              <li><h2 id="">Why is machine learning important?</h2>
               <p>Machine learning is important because it gives enterprises a view of trends in customer behavior and business operational patterns, as well as supports the development of new products. Many of today's leading companies, such as Facebook, Google and Uber, make machine learning a central part of their operations. Machine learning has become a significant competitive differentiator for many companies.</p>
 
-              <br>
-              <h2 id="">What are the different types of machine learning?</h2>
+              </li>
+              <li><h2 id="">What are the different types of machine learning?</h2>
               <p>Classical machine learning is often categorized by how an algorithm learns to become more accurate in its predictions. There are four basic approaches:supervised learning, unsupervised learning, semi-supervised learning and reinforcement learning. The type of algorithm data scientists choose to use depends on what type of data they want to predict.</p>
               
-              <br>
-              <h2 id="">What are the advantages and disadvantages of machine learning?</h2>
+              </li>
+              <li><h2 id="">What are the advantages and disadvantages of machine learning?</h2>
               <p>Machine learning has seen use cases ranging from predicting customer behavior to forming the operating system for self-driving cars.</p>
               <p>When it comes to advantages, machine learning can help enterprises understand their customers at a deeper level. By collecting customer data and correlating it with behaviors over time, machine learning algorithms can learn associations and help teams tailor product development and marketing initiatives to customer demand.</p>
               <p>Some companies use machine learning as a primary driver in their business models. Uber, for example, uses algorithms to match drivers with riders. Google uses machine learning to surface the ride advertisements in searches.</p>
@@ -566,15 +594,16 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
 
               <p>There is also the problem of machine learning bias. Algorithms trained on data sets that exclude certain populations or contain errors can lead to inaccurate models of the world that, at best, fail and, at worst, are discriminatory. When an enterprise bases core business processes on biased models it can run into regulatory and reputational harm.</p>
 
-              <br>
-              <h2>What is the future of machine learning?</h2>
+              </li>
+              <li><h2>What is the future of machine learning?</h2>
               <p>While machine learning algorithms have been around for decades, they've attained new popularity as artificial intelligence has grown in prominence. Deep learning models, in particular, power today's most advanced AI applications.
 
                 Machine learning platforms are among enterprise technology's most competitive realms, with most major vendors, including Amazon, Google, Microsoft, IBM and others, racing to sign customers up for platform services that cover the spectrum of machine learning activities, including data collection, data preparation, data classification, model building, training and application deployment.
                 
                 As machine learning continues to increase in importance to business operations and AI becomes more practical in enterprise settings, the machine learning platform wars will only intensify.
                 
-                Continued research into deep learning and AI is increasingly focused on developing more general applications. Today's AI models require extensive training in order to produce an algorithm that is highly optimized to perform one task. But some researchers are exploring ways to make models more flexible and are seeking techniques that allow a machine to apply context learned from one task to future, different tasks.</p>
+                Continued research into deep learning and AI is increasingly focused on developing more general applications. Today's AI models require extensive training in order to produce an algorithm that is highly optimized to perform one task. But some researchers are exploring ways to make models more flexible and are seeking techniques that allow a machine to apply context learned from one task to future, different tasks.</p></li>
+              
         </article>
       </section>
       <!--
@@ -615,8 +644,9 @@ The scope is to remain simple, quick references to parts of the FCC curriculum f
         </article>
       </section>
       -->
+
       <section class="main-section" id="References"> <!-- Reference Container -->
-        <header><u>References</u></header>
+        <header>References</header>
         <article>
           <ol>
             <li><a href="#1_back_to_top" style="text-decoration: none;">^</a> <a name="1"></a><a class="source" href="https://en.wikipedia.org/wiki/FreeCodeCamp#cite_ref-1" target="_blank">freeCodeCamp's Wikipedia article</a> - Retrieved 2017-03-16</li>
