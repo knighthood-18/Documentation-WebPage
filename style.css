@@ -6,7 +6,7 @@
 
 html, body {
   font-family: 'Lato', Arial, sans-serif;
-  background-color: white; 
+  background-color: #624F82; 
   line-height: 1.3;
   word-spacing: 4px;
 }
@@ -17,7 +17,7 @@ html, body {
   width: 323px;
   height: 100%;
   overflow-y:auto;
-  background-color: rgb(0,100,0);
+  background-color: #000000;
   font-weight: 600;
 }
 #navbar header {
@@ -26,10 +26,10 @@ html, body {
   margin: 7px;
   text-align: center;
   padding-bottom: 15px;
-  border-bottom: 2px solid rgb(2, 80, 6);
+  border-bottom: 2px solid #000000;
   font-family: 'Berkshire Swash', cursive; 
   color:crimson;
-  background-image: linear-gradient(to right,rgb(193, 43, 5),rgb(193, 43, 5) ,orange,rgb(193, 43, 5),rgb(193, 43, 5));
+  background-image: linear-gradient(to right,rgb(238, 8, 104),rgb(236, 8, 103) ,orange,rgb(238, 10, 97),rgb(231, 18, 89));
        color:transparent;
        background-clip: text;
        -webkit-background-clip: text;
@@ -43,9 +43,9 @@ header:not(#navbar header){
   padding-left: 15px;
   font-weight: 600;
   margin-bottom: 30px;
-  background-image: linear-gradient(to right,white,rgb(0,100,0),rgb(34, 122, 34),white,rgb(34, 122, 34),rgb(0,100,0),white); 
-  color: rgb(193, 43, 5);
-  box-shadow: 0px 0px 15px rgb(1, 47, 4);
+  background-image: linear-gradient(to right,white,#404041,rgb(0, 0, 0),white,rgb(5, 2, 7),rgb(81, 79, 83),white); 
+  color: rgb(204, 4, 64);
+  box-shadow: 0px 0px 15px rgb(99, 110, 112);
   font-family: 'Black Ops One', cursive; 
        
 }
@@ -59,7 +59,7 @@ ul{
   text-align: center;
 }
 #navbar li { 
-  color: rgb(146, 4, 23);
+  color: rgb(255, 35, 82);
   font-size:17px;
   font-family: 'Aclonica', sans-serif;
   padding: 7px;
@@ -67,8 +67,8 @@ ul{
   position: relative;
   right: 20px;
   border-radius: 7px;
-  box-shadow: 0px 12px 10px rgb(1, 61, 8); 
-  background-image: linear-gradient(to right,rgb(0,100,0),white,rgb(0,100,0));
+  box-shadow: 0px 12px 10px #000000; 
+  background-image: linear-gradient(to right,rgb(92, 62, 104),white,rgb(131, 84, 150));
 }
 #navbar li:hover{
   background-color:rgba(5, 171, 5, 0.7);
@@ -77,7 +77,7 @@ ul{
 article{
   margin:10px;
   font-size: 17px;
-  color:rgb(3, 73, 29);
+  color:rgb(236, 234, 235);
   font-family: cursive;
 }
 #main-doc {
@@ -94,7 +94,7 @@ article{
 #main-doc a {
   text-decoration: none;
   font-weight: bold;
-  color: rgb(162, 47, 5);
+  color: rgb(255, 116, 146);
 }
 #main-doc a:hover{
   color:rgb(2, 2, 128)
@@ -112,7 +112,7 @@ h1 {
 }
 h2{
   font-family: 'Aclonica', sans-serif;
-  background-image: linear-gradient(to right,rgb(193, 5, 5),orange ,orange,orange);
+  background-image: linear-gradient(to right,rgb(193, 5, 77),rgb(250, 81, 151) ,rgb(247, 89, 162),rgb(238, 65, 166));
        color:transparent;
        background-clip: text;
        -webkit-background-clip: text;
