@@ -6,7 +6,7 @@ It Contains blogs about various programming topics.
 - Clone your fork down to your local machine
 
 ```markdown
-git clone https://github.com/aditii-18/E-Commerce-Website.git
+git clone https://github.com/aditii-18/Documentation-WebPage.git
 ```
 
 - Create a branch
