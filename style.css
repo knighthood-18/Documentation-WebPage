@@ -134,7 +134,7 @@ img {
   margin-left: 23px;
   margin-bottom: 31px;
 }
-code {
+.code {
   display: block;
   background-color: #d9d5d5;
   color: rgb(11, 2, 87);
@@ -149,6 +149,17 @@ code {
   margin: 11px;
   margin-left: 23px;
   border-radius: 7px;
+}
+#copy-button {
+  color: rgb(39, 37, 37);
+  margin: -70px;
+  border-radius: 5px;
+  background-color: rgb(193, 5, 77);
+  padding: 5px;
+  cursor: pointer;
+}
+#copy-button:hover {
+  background-color: rgb(220, 178, 194);
 }
 footer {
   position: fixed;
@@ -193,7 +204,7 @@ footer {
   #main-doc {
     margin-left: -10px;
   }
-  code {
+  .code {
     font-size: .75em;
     margin-left: -20px;
     max-width: 100%;
