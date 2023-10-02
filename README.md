@@ -3,7 +3,7 @@ This website hosts a collection of informative blogs covering a wide array of pr
 
 Visit the Website: https://knighthood-18.github.io/Documentation-WebPage/
 
-![Alt text](C:\Users\Yash\Downloads\Documentation-WebPage\images\frontPage.png?raw=true "Title")
+![Alt text](https://github.com/Aditii-Gupta/Documentation-WebPage/blob/main/images/frontPage.png)
 
 # How to contribute to this project
 - Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
