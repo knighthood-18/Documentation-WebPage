@@ -19,7 +19,7 @@ git clone https://github.com/knighthood-18/Documentation-WebPage.git
 git checkout -b branch-name
 ```
 
-- Make your changes (choose from any task below)
+- Make your changes 
 - Commit and push
 
 ```markdown
